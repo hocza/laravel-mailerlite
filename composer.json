@@ -1,0 +1,26 @@
+{
+    "name": "hocza/laravel-mailerlite",
+    "description": "Laravel 5+ Wrapper for MailerLite API",
+    "keywords": ["laravel","mail","mailerlite","mailerlite-api-v2"],
+    "homepage": "http://hocza.com",
+    "authors": [
+        {
+            "name": "Jozsef Hocza",
+            "email": "jozsef@hocza.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.0",
+        "mailerlite/mailerlite-api-v2-php-sdk": "^0.2.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.5"
+    },
+    "autoload": {
+       "psr-4": {
+         "Hocza\\MailerLite\\": "src/Package"
+        }
+    },
+    "license": "MIT"
+
+}
