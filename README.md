@@ -5,7 +5,7 @@ A Laravel 5+ wrapper package for MailerLite API
 Installation
 ---
 ```shell
-composer require hocza/laravel-mailerlite:2.*
+composer require "hocza/laravel-mailerlite:2.*"
 ```
 
 Add the following settings to the config/app.php
