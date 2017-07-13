@@ -1,6 +1,6 @@
 <?php
 
-namespace Hocza\MailTrans\Facades;
+namespace Hocza\MailerLite\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
